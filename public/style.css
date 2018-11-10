@@ -1,0 +1,52 @@
+#contentContainer {
+  padding-top: 350px;
+}
+#resyContainer {
+  height: 5000px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 350px;
+}
+#mainContainer {
+  width: 50%; 
+}
+#RestaurantInfo {
+  margin-left: 150px;
+  width: 50%;
+  background-color: white;
+}
+#Reservation {
+  position: sticky;
+  top: 10px;
+  margin-left: 930px;
+  background-color: white;
+}
+#menu {
+  margin-top: 4px;
+  margin-left: 150px;
+  width: 100%;
+}
+#reviews {
+  /* margin: 60px 139px 30px 0px; */
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  width: 100%;
+}
+#header-picture {
+  width: 100%;
+  margin-right: 0px;
+  height: 400px;
+  object-fit: fill;
+  position: absolute;
+  z-index: -1;
+}
+#pic-graph {
+  margin-left: 170px;
+  margin-top: 30px;
+} 
+#footer {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}

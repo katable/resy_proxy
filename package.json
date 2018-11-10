@@ -4,7 +4,8 @@
   "description": "proxy_KTS",
   "main": "bundle.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "startmon": "nodemon server.js",
+    "start": "node server.js",
     "test": "nodemon server.js"
   },
   "repository": {
