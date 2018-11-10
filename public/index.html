@@ -6,30 +6,47 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <title>Book with KATAble!</title>
   </head>
-  <body>
-    <div>
-      <div style="display: inline-block">
+  <body>    
+    <div className="pic-container">
+      <img src="https://s3.us-east-2.amazonaws.com/header-opentable2/Screen+Shot+2018-11-09+at+3.22.55+PM.png" id="header-picture"/>
+    </div>
+    
+    <div id="resyContainer">
+      <div id="Reservation"></div>
+    </div>
+
+    <div id="contentContainer">
+      <div id="mainContainer" style="display: inline">
+        <div id="RestaurantInfo"></div>
+        <img src="https://s3.us-east-2.amazonaws.com/bundle-picsgraph/Screen+Shot+2018-11-07+at+10.30.55+AM.png" id="pic-graph"/>
+        <div id="menu"></div>
+        <div id="reviews"></div>
+      </div>
+    </div>
+
+    <img src="https://s3.us-east-2.amazonaws.com/footer-opentable/Screen+Shot+2018-11-09+at+3.48.44+PM.png" id="footer" />
+
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    
+    <!-- bundle order: RestaurantInfo, Reviews, Menu, Reservation -->
+    <script src="http://ec2-52-53-177-126.us-west-1.compute.amazonaws.com/bundle.js"></script>  
+    <script src="http://ec2-18-219-151-31.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-18-212-129-29.compute-1.amazonaws.com/main.js"></script>
+    <script src="http://ec2-54-153-45-179.us-west-1.compute.amazonaws.com/bundle.js"></script>
+  </body>
+</html>
+
+    <!-- <div style="display: inline-block; width: 950px">
         <div id="RestaurantInfo"></div>
         <div id="menu"></div>
         <div id="reviews"></div>
       </div>
-      
       <div id="Reservation" style="display: inline-block;vertical-align: top;position: fixed;">
       </div>
-    </div>
-    
-    <script src="/lib/react.development.js"></script>
-    <script src="/lib/react-dom.development.js"></script>
-    
-    <script src="https://s3-us-west-1.amazonaws.com/restaurant-info/restaurantinfo/bundle.js"></script>
+    </div> -->
+
+    <!-- <script src="https://s3-us-west-1.amazonaws.com/restaurant-info/restaurantinfo/bundle.js"></script>
     <script src="https://s3.us-east-2.amazonaws.com/bundle-reviews-openservices3/bundle.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/resyservice/bundle.js"></script>
-    <script src="https://s3-us-west-1.amazonaws.com/kata-menu/main.js"></script>
-  </body>
-</html>
-
-<!-- <div id="Reservation" style="display: inline-block; vertical-align: top; position: fixed"></div> -->
-      <!-- <div id="RestaurantInfo"></div>
-      <div id="menu"></div>
-      <div id="reviews"></div>
-      <div id="Reservation"></div> -->
+    <script src="https://s3-us-west-1.amazonaws.com/kata-menu/main.js"></script> -->
